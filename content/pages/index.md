@@ -543,6 +543,89 @@ sections:
 
   - type: GenericSection
     title:
+      text: Investment Opportunity
+      color: text-dark
+      type: TitleBlock
+    subtitle: Join us in revolutionizing clinical documentation for manual therapy
+    text: >
+      **Transforming a $18B Industry**
+
+
+      The massage therapy industry in the United States generates over $18 billion annually, with 350,000+ licensed practitioners facing the same documentation challenges. SomaSync AI is positioned to become the industry standard for clinical documentation.
+
+
+      **Market Opportunity:**
+
+      • 350,000+ licensed massage therapists in the US
+
+      • 90,000+ physical therapists specializing in manual therapy
+
+      • 70,000+ chiropractors using hands-on techniques
+
+      • Growing demand for HIPAA-compliant digital solutions
+
+      • Increasing insurance reimbursement requirements
+
+
+      **Why Now:**
+
+      • Voice AI technology has reached clinical-grade accuracy
+
+      • Manual therapists are actively seeking workflow solutions
+
+      • Regulatory pressure for better documentation
+
+      • Post-pandemic digital transformation in healthcare
+
+
+      **Traction:**
+
+      • Phase I pilot program with 10 licensed practitioners
+
+      • Evidence-based development with measurable outcomes
+
+      • Built by practitioners who understand the pain points
+
+      • Clear path to Phase II expansion and revenue generation
+
+
+      **Investment Use:**
+
+      • Product development and AI model refinement
+
+      • EHR integrations and enterprise features
+
+      • Marketing and practitioner acquisition
+
+      • Team expansion (engineering, clinical advisors, sales)
+
+
+      **Contact us to learn more about investment opportunities and our vision for the future of manual therapy documentation.**
+    actions:
+      - type: Button
+        label: Investor Deck
+        url: '#contact'
+        style: primary
+      - type: Button
+        label: Schedule a Call
+        url: '#contact'
+        style: secondary
+    badge:
+      type: Badge
+      label: Seed Round Open
+      color: text-primary
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        alignItems: center
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+
+  - type: GenericSection
+    title:
       text: Pricing & Access
       color: text-dark
       type: TitleBlock
