@@ -635,9 +635,9 @@ sections:
   - type: GenericSection
     title:
       text: Pricing & Access
-      color: text-dark
+      color: text-neutral
       type: TitleBlock
-    subtitle: Join our pilot testing program
+    subtitle: Pricing details coming soon
     text: >
       **Early Access Program**
 
@@ -677,9 +677,9 @@ sections:
         style: primary
     badge:
       type: Badge
-      label: Phase I Pilot Program
-      color: text-primary
-    colors: bg-light-fg-dark
+      label: Coming Soon
+      color: text-neutral
+    colors: bg-neutral-fg-dark
     styles:
       self:
         alignItems: center
