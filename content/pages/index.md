@@ -2,28 +2,36 @@
 title: SomaSync AI
 slug: /
 sections:
-  - type: HeroSection
-    title: 'SomaSync AI: Your AI-Powered Clinical Assistant'
+  - type: GenericSection
+    title:
+      text: 'SomaSync AI: Your AI-Powered Clinical Assistant'
+      color: text-dark
+      type: TitleBlock
     subtitle: Transform Your Practice with Hands-Free Documentation
     text: >
       SomaSync AI is the first AI-powered assistant designed specifically for manual therapists, bodyworkers, and musculoskeletal practitioners. Our revolutionary platform listens to your verbal observations during postural assessments and treatment sessions, automatically identifies anatomical structures and deviations, and generates structured SOAP notes in real time—all while keeping your hands free to focus on what matters most: your clients.
     actions:
-      - type: Button
-        label: Apply for Early Access
+      - label: Apply for Early Access
         url: '#contact'
+        icon: arrowRight
+        iconPosition: right
         style: primary
-      - type: Button
-        label: Learn More
+        type: Button
+      - label: Learn More
         url: '#features'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
         style: secondary
+        type: Link
     media:
-      type: ImageBlock
       url: /images/main-hero.jpg
       altText: SomaSync AI in action
+      type: ImageBlock
     badge:
-      type: Badge
       label: Phase I Pilot Program Now Open
       color: text-primary
+      type: Badge
     colors: bg-light-fg-dark
     styles:
       self:
