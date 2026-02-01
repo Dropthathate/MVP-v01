@@ -47,28 +47,28 @@ sections:
     subtitle: Recognized by leading professional associations and insurance providers
     images:
       - type: ImageBlock
-        url: /images/camtc-logo.svg
+        url: /images/logos/camtc.png
         altText: California Massage Therapy Council
       - type: ImageBlock
-        url: /images/amta-logo.svg
+        url: /images/logos/amta.png
         altText: American Massage Therapy Association
       - type: ImageBlock
-        url: /images/abmp-logo.svg
+        url: /images/logos/abmp.png
         altText: Associated Bodywork & Massage Professionals
       - type: ImageBlock
-        url: /images/ncbtmb-logo.svg
+        url: /images/logos/ncbtmb.png
         altText: National Certification Board for Therapeutic Massage & Bodywork
       - type: ImageBlock
-        url: /images/bcbs-logo.svg
+        url: /images/logos/bcbs.jpg
         altText: Blue Cross Blue Shield
       - type: ImageBlock
-        url: /images/aetna-logo.svg
+        url: /images/logos/aetna.jpg
         altText: Aetna
       - type: ImageBlock
-        url: /images/cigna-logo.svg
+        url: /images/logos/cigna.png
         altText: Cigna
       - type: ImageBlock
-        url: /images/uhc-logo.svg
+        url: /images/logos/uhc.jpg
         altText: UnitedHealthcare
     motion: move-to-left
     colors: bg-light-fg-dark
