@@ -2,732 +2,733 @@
 title: SomaSync AI
 slug: /
 sections:
-- type: GenericSection
-  title:
-    text: Unblock your team boost your time to production
-    color: text-dark
-    type: TitleBlock
-  subtitle: Subtitle goes here
-  text: 'A Netlify Create website is a git repo that you own. Every code commit is
-    instantly reflected in the visual editor and since every visual edit is a git
-    commit, git workflows and collaboration just work.
-
-    '
-  actions:
-  - label: Get started
-    altText: ''
-    url: /
-    showIcon: false
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    elementId: ''
-    type: Button
-  - label: See Tutorials
-    altText: ''
-    url: /
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: primary
-    elementId: ''
-    type: Link
-  media:
-    url: /images/main-hero.svg
-    altText: Unblock your team boost your time to production preview
-    elementId: ''
-    type: ImageBlock
-  badge:
-    label: This is a badge
-    color: text-primary
-    type: Badge
-  elementId: ''
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      alignItems: center
-      flexDirection: row
-      padding:
-      - pt-16
-      - pl-16
-      - pb-16
-      - pr-16
-- type: FeaturedItemsSection
-  title:
-    text: Why SomaSync AI?
-    color: text-dark
-    styles:
-      self:
-        textAlign: center
-    type: TitleBlock
-  subtitle: Streamlining your workflow so you can focus on what matters most.
-  items:
-  - type: FeaturedItem
-    title: Hands-Free Operation
-    subtitle: Numbers Done
-    text: Voice-activated transcription allows you to document findings without breaking
-      contact with your client.
-    actions: []
-    elementId: null
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-        - pt-8
-        - pl-8
-        - pb-8
-        - pr-8
-        borderRadius: x-large
-        flexDirection: row
-        justifyContent: center
-        textAlign: left
-    image:
+  - type: HeroSection
+    title: 'SomaSync AI: Your AI-Powered Clinical Assistant'
+    subtitle: Transform Your Practice with Hands-Free Documentation
+    text: >
+      SomaSync AI is the first AI-powered assistant designed specifically for manual therapists, bodyworkers, and musculoskeletal practitioners. Our revolutionary platform listens to your verbal observations during postural assessments and treatment sessions, automatically identifies anatomical structures and deviations, and generates structured SOAP notes in real time—all while keeping your hands free to focus on what matters most: your clients.
+    actions:
+      - type: Button
+        label: Apply for Early Access
+        url: '#contact'
+        style: primary
+      - type: Button
+        label: Learn More
+        url: '#features'
+        style: secondary
+    media:
       type: ImageBlock
-      altText: Lightning bolt symbol on red background
-      elementId: ''
-      url: /images/icon1.svg
-      styles:
-        self:
-          borderRadius: x-large
-  - title: Clinical Precision
-    subtitle: The Job Stuff
-    text: Our AI is trained on clinical manual therapy language, ensuring accurate
-      terminology and anatomical detail.
-    image:
-      url: /images/icon2.svg
-      altText: Featured icon two
-      elementId: ''
-      type: ImageBlock
-    actions: []
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-        - pt-8
-        - pl-8
-        - pb-8
-        - pr-8
-        borderRadius: x-large
-        flexDirection: row
-        textAlign: left
-        justifyContent: center
-    type: FeaturedItem
-  - title: HIPAA Compliant
-    subtitle: Faster
-    text: Built with security at the core, ensuring your client data is protected
-      and private.
-    image:
-      url: /images/icon3.svg
-      altText: Featured icon three
-      elementId: ''
-      type: ImageBlock
-    actions: []
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-        - pt-8
-        - pl-8
-        - pb-8
-        - pr-8
-        borderRadius: x-large
-        flexDirection: row
-    type: FeaturedItem
-  actions:
-  - label: Get started
-    altText: ''
-    url: /
-    showIcon: false
-    icon: arrowRight
-    iconPosition: right
-    style: primary
-    elementId: ''
-    type: Button
-  badge:
-    label: This is a badge
-    color: text-primary
-    styles:
-      self:
-        textAlign: center
-    type: Badge
-  elementId: ''
-  variant: three-col-grid
-  colors: bg-neutral-fg-dark
-  styles:
-    self:
-      padding:
-      - pb-16
-      - pt-16
-      - pl-16
-      - pr-16
-      justifyContent: center
-    subtitle:
-      textAlign: center
-- subtitle: Award winning enterprises trust us
-  images:
-  - url: /images/empathy-logo.svg
-    altText: Empathy logo
-    type: ImageBlock
-  - url: /images/wellster-logo.svg
-    altText: Wellster logo
-    type: ImageBlock
-  - url: /images/vise-logo.svg
-    altText: Vise logo
-    type: ImageBlock
-  - url: /images/telus-logo.svg
-    altText: Telus logo
-    type: ImageBlock
-  - url: /images/contenful-logo.svg
-    altText: Contentful logo
-    type: ImageBlock
-  - url: /images/sanity-logo.svg
-    altText: Sanity logo
-    type: ImageBlock
-  - url: /images/rangle-logo.svg
-    altText: Rangle logo
-    type: ImageBlock
-  motion: move-to-left
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      justifyContent: center
-    subtitle:
-      textAlign: center
-  type: ImageGallerySection
-- posts:
-  - content/pages/blog/case-study-1.md
-  - content/pages/blog/case-study-2.md
-  - content/pages/blog/case-study-3.md
-  showThumbnail: true
-  showDate: true
-  showAuthor: true
-  variant: three-col-grid
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      padding:
-      - pt-16
-      - pl-16
-      - pb-16
-      - pr-16
-      justifyContent: center
-  type: FeaturedPostsSection
-  hoverEffect: move-up
-- title: Divider
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      padding:
-      - pt-7
-      - pl-7
-      - pb-7
-      - pr-7
-  type: DividerSection
-- title:
-    text: Grow your business 10x faster
-    color: text-dark
-    styles:
-      self:
-        textAlign: center
-    type: TitleBlock
-  subtitle: This is a subtitle
-  text: 'Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-
-    Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-
-    erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-
-    vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.'
-  media:
-    title: Title of the video
-    url: /images/placeholder-video.mp4
-    controls: false
-    aspectRatio: '16:9'
-    styles:
-      self:
-        padding:
-        - pt-2
-        - pb-2
-        - pl-2
-        - pr-2
-        borderColor: border-dark
-        borderStyle: solid
-        borderWidth: 1
-        borderRadius: large
-    type: VideoBlock
-    autoplay: true
-    loop: true
-    muted: true
-  badge:
-    label: Key Benefits
-    color: text-primary
-    styles:
-      self:
-        textAlign: center
-    type: Badge
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      flexDirection: col
-      justifyContent: center
-    subtitle:
-      textAlign: center
-  type: GenericSection
-- type: GenericSection
-  title:
-    text: Generic section with a video
-    color: text-dark
-    styles:
-      self:
-        textAlign: left
-    type: TitleBlock
-  subtitle: Section with a video subtitle
-  text: 'Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-
-    Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-
-    erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-
-    vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.'
-  actions: []
-  media:
-    title: Title of the video
-    url: /images/placeholder-video.mp4
-    autoplay: true
-    loop: true
-    muted: true
-    controls: false
-    aspectRatio: '16:9'
-    styles:
-      self:
-        padding:
-        - pt-2
-        - pb-2
-        - pl-2
-        - pr-2
-        borderColor: border-dark
-        borderStyle: solid
-        borderWidth: 1
-        borderRadius: large
-    type: VideoBlock
-  elementId: null
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      flexDirection: row
-      justifyContent: center
-    subtitle:
-      textAlign: left
-- title:
-    text: Social Media Management
-    color: text-dark
-    type: TitleBlock
-  subtitle: Increase your reach
-  text: 'A service that helps businesses to manage their social media accounts and
-    posts.
-
-    '
-  actions:
-  - label: Get started
-    url: /
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    type: Button
-  - label: See Tutorials
-    url: /
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: primary
-    type: Link
-  media:
-    url: /images/hero2.svg
-    altText: Fun feature preview
-    type: ImageBlock
-  badge:
-    label: This is a badge
-    color: text-primary
-    type: Badge
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      alignItems: center
-  type: GenericSection
-- title:
-    text: Business Consulting
-    color: text-dark
-    type: TitleBlock
-  subtitle: Be in good company
-  text: 'A service that provides advice and guidance to startups and small businesses.
-
-    '
-  actions:
-  - label: Get started
-    url: /
-    icon: arrowRight
-    iconPosition: right
-    style: secondary
-    type: Button
-  - label: See Tutorials
-    url: /
-    showIcon: true
-    icon: arrowRight
-    iconPosition: right
-    style: primary
-    type: Link
-  media:
-    url: /images/hero3.svg
-    altText: Dope design preview
-    type: ImageBlock
-  badge:
-    label: This is a badge
-    color: text-primary
-    type: Badge
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      alignItems: center
-      flexDirection: row-reverse
-  type: GenericSection
-- title: Divider
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      padding:
-      - pt-7
-      - pl-7
-      - pb-7
-      - pr-7
-  type: DividerSection
-- type: CarouselSection
-  title: null
-  subtitle: What our customers say about us
-  items:
-  - title: “A designer knows he has achieved perfection not when there is nothing
-      left to add, but when there is nothing left to take away.”
-    tagline: Testimonial 1
-    subtitle: Maria Walters, Company
-    text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
-    image:
-      url: /images/person-placeholder-light.png
-      altText: Maria Walters
-      styles:
-        self:
-          borderRadius: full
-      type: ImageBlock
-    actions: []
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-        - pt-9
-        - pb-9
-        - pl-9
-        - pr-9
-        textAlign: left
-        borderRadius: large
-        flexDirection: row
-        justifyContent: center
-    type: FeaturedItem
-  - title: '"Design is a plan for arranging elements in such a way as best to accomplish
-      a particular purpose."'
-    tagline: Testimonial 2
-    subtitle: John Doe, Company
-    text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
-    image:
-      url: /images/person-placeholder-light.png
-      altText: John Doe
-      styles:
-        self:
-          borderRadius: full
-      type: ImageBlock
-    actions: []
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-        - pt-9
-        - pb-9
-        - pl-9
-        - pr-9
-        textAlign: left
-        borderRadius: large
-        flexDirection: row
-        justifyContent: center
-    type: FeaturedItem
-  - title: '"Design is how it works, how it functions. Good design doesn''t just make
-      a product aesthetically pleasing, it makes it a pleasure to use."'
-    tagline: Testimonial 3
-    subtitle: Maria Walters, Company
-    text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
-    image:
-      url: /images/person-placeholder-light.png
-      altText: Maria Walters
-      styles:
-        self:
-          borderRadius: full
-      type: ImageBlock
-    actions: []
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-        - pt-9
-        - pb-9
-        - pl-9
-        - pr-9
-        textAlign: left
-        borderRadius: large
-        flexDirection: row
-        justifyContent: center
-    type: FeaturedItem
-  - title: “A designer knows he has achieved perfection not when there is nothing
-      left to add, but when there is nothing left to take away.”
-    tagline: Testimonial 4
-    subtitle: Maria Walters, Company
-    text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
-    image:
-      url: /images/person-placeholder-light.png
-      altText: Maria Walters
-      styles:
-        self:
-          borderRadius: full
-      type: ImageBlock
-    actions: []
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-        - pt-9
-        - pb-9
-        - pl-9
-        - pr-9
-        textAlign: left
-        borderRadius: large
-        flexDirection: row
-        justifyContent: center
-    type: FeaturedItem
-  - title: '"Design can be art. Design can be aesthetics. Design is so simple, that''s
-      why it is so complicated."'
-    tagline: Testimonial 5
-    subtitle: Jane Walters, Company
-    text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
-    image:
-      url: /images/person-placeholder-light.png
-      altText: Maria Walters
-      styles:
-        self:
-          borderRadius: full
-      type: ImageBlock
-    actions: []
-    colors: bg-neutralAlt-fg-dark
-    styles:
-      self:
-        padding:
-        - pt-9
-        - pb-9
-        - pl-9
-        - pr-9
-        textAlign: left
-        borderRadius: large
-        flexDirection: row
-        justifyContent: center
-    type: FeaturedItem
-  - title: “Quote from some important person goes right here. I love using Netlify
-      Create.”
-    tagline: Testimonial 6
-    subtitle: Jane Doe, Company
-    text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
-    image:
-      url: /images/img-placeholder-dark.png
-      altText: Jane Doe
-      styles:
-        self:
-          borderRadius: full
-      type: ImageBlock
-    actions: []
-    colors: bg-dark-fg-light
-    styles:
-      self:
-        padding:
-        - pt-9
-        - pb-9
-        - pl-9
-        - pr-9
-        textAlign: left
-        borderRadius: large
-        flexDirection: row
-        justifyContent: center
-    type: FeaturedItem
-  elementId: null
-  variant: next-prev-nav
-  colors: bg-light-fg-dark
-  styles:
-    self:
-      justifyContent: center
-    subtitle:
-      textAlign: center
-- title:
-    text: List of features here
-    color: text-primary
-    styles:
-      self:
-        textAlign: center
-    type: TitleBlock
-  subtitle: Featured items section subtitle
-  items:
-  - title: Feature Item One
-    tagline: This is the tagline
-    subtitle: This is the item subtitle
-    text: 'Follow the tutorial to build your first Netlify Create site.
-
-      '
-    image:
-      url: /images/abstract-feature1.svg
-      altText: Placeholder Image
-      styles:
-        self:
-          borderRadius: x-large
-      type: ImageBlock
+      url: /images/main-hero.jpg
+      altText: SomaSync AI in action
+    badge:
+      type: Badge
+      label: Phase I Pilot Program Now Open
+      color: text-primary
     colors: bg-light-fg-dark
     styles:
       self:
+        alignItems: center
+        flexDirection: row
         padding:
-        - pt-8
-        - pl-8
-        - pb-8
-        - pr-8
-        borderRadius: x-large
-        flexDirection: col
-    type: FeaturedItem
-  - title: Feature Item Two
-    tagline: This is the tagline
-    subtitle: This is the item subtitle
-    text: 'Follow the tutorial to build your first awesome Netlify Create site.
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
 
-      '
-    image:
-      url: /images/abstract-feature2.svg
-      altText: Placeholder image
-      styles:
-        self:
-          borderRadius: x-large
-      type: ImageBlock
+  - type: ImageGallerySection
+    subtitle: Recognized by leading professional associations and insurance providers
+    images:
+      - type: ImageBlock
+        url: /images/camtc-logo.svg
+        altText: California Massage Therapy Council
+      - type: ImageBlock
+        url: /images/amta-logo.svg
+        altText: American Massage Therapy Association
+      - type: ImageBlock
+        url: /images/abmp-logo.svg
+        altText: Associated Bodywork & Massage Professionals
+      - type: ImageBlock
+        url: /images/ncbtmb-logo.svg
+        altText: National Certification Board for Therapeutic Massage & Bodywork
+      - type: ImageBlock
+        url: /images/bcbs-logo.svg
+        altText: Blue Cross Blue Shield
+      - type: ImageBlock
+        url: /images/aetna-logo.svg
+        altText: Aetna
+      - type: ImageBlock
+        url: /images/cigna-logo.svg
+        altText: Cigna
+      - type: ImageBlock
+        url: /images/uhc-logo.svg
+        altText: UnitedHealthcare
+    motion: move-to-left
     colors: bg-light-fg-dark
     styles:
       self:
-        padding:
-        - pt-8
-        - pl-8
-        - pb-8
-        - pr-8
-        borderRadius: x-large
-        flexDirection: col
-    type: FeaturedItem
-  - title: Feature Item Three
-    tagline: This is the tagline
-    subtitle: This is the item subtitle
-    text: 'Learn from the tutorial and build your first awesome Netlify Create site.
+        justifyContent: center
+      subtitle:
+        textAlign: center
 
-      '
-    image:
-      url: /images/abstract-feature1.svg
-      altText: Placeholder image
-      styles:
-        self:
-          borderRadius: x-large
-      type: ImageBlock
+  - type: FeaturedItemsSection
+    title:
+      text: The Problem We're Solving
+      color: text-dark
+      type: TitleBlock
+    subtitle: Manual therapists face critical documentation challenges
+    items:
+      - type: FeaturedItem
+        title: Lost Data
+        text: Relying on memory or handwritten notes leads to incomplete records
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: medium
+            flexDirection: col
+      - type: FeaturedItem
+        title: Time-Consuming Documentation
+        text: Spending 10-15 minutes per session on administrative tasks
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: medium
+            flexDirection: col
+      - type: FeaturedItem
+        title: Workflow Interruption
+        text: Breaking away from hands-on work to take notes disrupts the therapeutic flow
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: medium
+            flexDirection: col
+      - type: FeaturedItem
+        title: Compliance Risk
+        text: Incomplete documentation affects billing, legal defensibility, and insurance claims
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: medium
+            flexDirection: col
+    variant: two-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-8
+          - pb-16
+          - pr-8
+        justifyContent: center
+
+  - type: GenericSection
+    title:
+      text: How SomaSync AI Works
+      color: text-dark
+      type: TitleBlock
+    subtitle: Four simple steps to transform your clinical documentation
+    text: >
+      **1. Speak Naturally During Assessment**
+
+
+      Simply verbalize your observations as you work: "Mark restricted right upper trapezius," "anterior pelvic tilt," or "elevated left scapula." SomaSync listens through your smartphone or in-ear device.
+
+
+      **2. AI-Powered Recognition**
+
+
+      Our advanced Natural Language Processing engine detects trigger words, identifies anatomical structures (muscles, joints, tendons, nerves), maps deviations and asymmetries, captures laterality automatically, and time-stamps every observation.
+
+
+      **3. Real-Time Insights**
+
+
+      SomaSync provides confirmation of captured findings, supportive prompts to ensure complete documentation, pattern recognition suggestions, and context-aware clinical insights.
+
+
+      **4. Structured SOAP Notes**
+
+
+      At the end of your session, SomaSync automatically generates a complete, structured SOAP note ready for your EHR system, billing, or client records.
+    actions:
+      - type: Button
+        label: See It In Action
+        url: '#demo'
+        style: primary
     colors: bg-light-fg-dark
     styles:
       self:
+        alignItems: center
+        flexDirection: row
         padding:
-        - pt-8
-        - pl-8
-        - pb-8
-        - pr-8
-        borderRadius: x-large
-        flexDirection: col
-    type: FeaturedItem
-  variant: three-col-grid
-  colors: bg-neutral-fg-dark
-  styles:
-    self:
-      padding:
-      - pt-16
-      - pl-8
-      - pb-16
-      - pr-8
-      justifyContent: center
-    subtitle:
-      textAlign: center
-  type: FeaturedItemsSection
-- title:
-    text: Join the Early Access Program
-    color: text-dark
-    type: TitleBlock
-  subtitle: Be among the first to experience the future of clinical documentation.
-  text: We're currently in Phase I of our pilot program. Apply now to get free access
-    and help shape the future of SomaSync AI.
-  media:
-    fields:
-    - name: name
-      label: Name
-      hideLabel: true
-      placeholder: Your name
-      isRequired: true
-      width: full
-      type: TextFormControl
-    - name: email
-      label: Email
-      hideLabel: true
-      placeholder: Your email
-      isRequired: true
-      width: full
-      type: EmailFormControl
-    - name: message
-      label: Message
-      hideLabel: true
-      placeholder: Your message
-      width: full
-      type: TextareaFormControl
-    elementId: contact-form
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+
+  - type: FeaturedItemsSection
+    title:
+      text: Core Features
+      color: text-primary
+      type: TitleBlock
+    subtitle: Designed by practitioners, for practitioners
+    items:
+      - type: FeaturedItem
+        title: Hands-Free Operation
+        tagline: Stay Connected
+        text: Work seamlessly with your clients while SomaSync captures everything through voice. No typing, no interruptions, no switching between tasks.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature1.svg
+          altText: Hands-free operation
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: large
+            flexDirection: col
+      - type: FeaturedItem
+        title: Anatomical Intelligence
+        tagline: Clinical Precision
+        text: >
+          Our Knowledge Engine understands clinical language and automatically tags 100+ muscles and muscle groups, major joints, tendons, ligaments, fascia, nerve pathways, and postural deviations.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature2.svg
+          altText: Anatomical intelligence
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: large
+            flexDirection: col
+      - type: FeaturedItem
+        title: Pattern Recognition
+        tagline: Clinical Insights
+        text: SomaSync identifies common musculoskeletal patterns like Upper Crossed Syndrome, Lower Crossed Syndrome, and other postural compensation patterns.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature1.svg
+          altText: Pattern recognition
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: large
+            flexDirection: col
+      - type: FeaturedItem
+        title: HIPAA Compliant
+        tagline: Secure & Private
+        text: Built with security at the core, ensuring your client data is protected with end-to-end encryption and full HIPAA compliance.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature2.svg
+          altText: HIPAA compliance
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: large
+            flexDirection: col
+      - type: FeaturedItem
+        title: Real-Time Transcription
+        tagline: Instant Feedback
+        text: Watch your words appear on screen instantly as you speak, with live AI feedback and suggestions to ensure complete documentation.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature1.svg
+          altText: Real-time transcription
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: large
+            flexDirection: col
+      - type: FeaturedItem
+        title: Session Management
+        tagline: Complete Control
+        text: Running log of all observations, easy review and editing before finalizing, copy-to-clipboard functionality, and cloud sync across devices.
+        image:
+          type: ImageBlock
+          url: /images/abstract-feature2.svg
+          altText: Session management
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: large
+            flexDirection: col
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-        - pt-6
-        - pb-6
-        - pl-6
-        - pr-6
-        borderColor: border-dark
-        borderStyle: solid
-        borderWidth: 1
-        borderRadius: large
-    type: FormBlock
-    submitButton:
-      type: SubmitButtonFormControl
-      label: Submit
-      showIcon: false
-      icon: arrowRight
-      iconPosition: right
-      style: primary
-      elementId: null
-  badge:
-    label: Get Started
-    color: text-primary
-    type: Badge
-  colors: bg-light-fg-dark
-  type: GenericSection
+          - pt-16
+          - pl-8
+          - pb-16
+          - pr-8
+        justifyContent: center
+
+  - type: GenericSection
+    title:
+      text: The SomaSync Practitioner Hub
+      color: text-dark
+      type: TitleBlock
+    subtitle: Beyond basic documentation—a dynamic ecosystem for continuous learning
+    text: >
+      **The SomaSphere: Collaborative Insight Engine**
+
+
+      Transform individual assessments into community-powered wisdom. After identifying a deviation like "anterior pelvic tilt," tap the SomaSphere icon to access interactive 3D anatomical models, heat maps showing prevalence of similar patterns across anonymized demographics, population-level musculoskeletal health trends, and context for understanding if your client's issue is part of a broader pattern.
+
+
+      **SyncLearn Modules: Just-in-Time Education**
+
+
+      Turn every session into a learning opportunity. When SomaSync suggests a pattern like "Upper Crossed Syndrome," a Learn icon appears. Tap it to access 30-90 second tutorial videos, interactive anatomical diagrams, specific palpation technique demonstrations, TCM pattern explanations, and muscle group visualizations.
+    actions:
+      - type: Button
+        label: Explore the Hub
+        url: '#features'
+        style: secondary
+    badge:
+      type: Badge
+      label: Coming in Phase II
+      color: text-primary
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+
+  - type: FeaturedItemsSection
+    title:
+      text: Who Benefits from SomaSync AI
+      color: text-dark
+      type: TitleBlock
+    subtitle: Built for the entire manual therapy community
+    items:
+      - type: FeaturedItem
+        title: Licensed Massage Therapists (LMTs)
+        text: Streamline documentation for insurance billing and maintain defensible records for compliance.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            textAlign: left
+            borderRadius: medium
+      - type: FeaturedItem
+        title: Physical Therapists
+        text: Capture detailed postural assessments without interrupting hands-on treatment.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            textAlign: left
+            borderRadius: medium
+      - type: FeaturedItem
+        title: Chiropractors
+        text: Document spinal and postural findings with precision for treatment planning and progress tracking.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            textAlign: left
+            borderRadius: medium
+      - type: FeaturedItem
+        title: Myofascial Release Practitioners
+        text: Record complex fascial restrictions and treatment responses in real-time.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            textAlign: left
+            borderRadius: medium
+      - type: FeaturedItem
+        title: Manual Osteopaths
+        text: Maintain comprehensive records of structural assessments and treatment protocols.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            textAlign: left
+            borderRadius: medium
+      - type: FeaturedItem
+        title: Bodywork Students & Educators
+        text: Use SomaSync as a learning tool to reinforce anatomical knowledge and assessment skills.
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            textAlign: left
+            borderRadius: medium
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-8
+          - pb-16
+          - pr-8
+
+  - type: FeaturedItemsSection
+    title:
+      text: The Impact We're Creating
+      color: text-primary
+      type: TitleBlock
+    subtitle: Real benefits for practitioners, clients, and the profession
+    items:
+      - type: FeaturedItem
+        title: For Practitioners
+        text: >
+          • Save 5-10 minutes per session on documentation
+
+          • Reduce administrative burden by up to 40%
+
+          • Improve clinical accuracy and consistency
+
+          • Create defensible, comprehensive records
+
+          • Continue learning and developing skills
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: large
+      - type: FeaturedItem
+        title: For Clients
+        text: >
+          • More face-to-face time with their therapist
+
+          • Better treatment outcomes through improved documentation
+
+          • Clearer communication about their condition
+
+          • Progress tracking across multiple sessions
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: large
+      - type: FeaturedItem
+        title: For the Profession
+        text: >
+          • Standardization of postural assessment documentation
+
+          • Creation of valuable anonymized data for research
+
+          • Enhanced credibility through precise record-keeping
+
+          • Advancement of evidence-based practice
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: large
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-8
+          - pb-16
+          - pr-8
+
+  - type: GenericSection
+    title:
+      text: Pricing & Access
+      color: text-dark
+      type: TitleBlock
+    subtitle: Join our pilot testing program
+    text: >
+      **Early Access Program**
+
+
+      Be among the first practitioners to experience SomaSync AI. Limited spots available in our pilot program.
+
+
+      **What you get:**
+
+      • Free access during the pilot phase
+
+      • Direct input into product development
+
+      • Priority access to new features
+
+      • Lifetime discount on subscription pricing
+
+
+      **Limited spots available for:**
+
+      • 10 therapists in Phase I (Current)
+
+      • 50+ therapists in Phase II (Coming Soon)
+
+
+      **Future Pricing (Planned):**
+
+      • **Starter**: $29/month - Basic documentation features
+
+      • **Professional**: $49/month - Full SomaSphere and SyncLearn access
+
+      • **Enterprise**: Custom pricing - Multi-practitioner clinics and educational institutions
+    actions:
+      - type: Button
+        label: Apply Now
+        url: '#contact'
+        style: primary
+    badge:
+      type: Badge
+      label: Phase I Pilot Program
+      color: text-primary
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+
+  - type: GenericSection
+    title:
+      text: Frequently Asked Questions
+      color: text-dark
+      type: TitleBlock
+    text: >
+      **Q: Do I need special equipment?**
+
+      A: No. SomaSync works with your smartphone's built-in microphone. For hands-free operation, any Bluetooth earbud works. We'll also offer a recommended in-ear device for optimal performance.
+
+
+      **Q: How accurate is the speech recognition?**
+
+      A: Our system is trained specifically on clinical language and achieves over 80% accuracy in controlled tests. It continues to learn and improve with use.
+
+
+      **Q: Is my client data secure?**
+
+      A: Absolutely. We're building SomaSync with HIPAA compliance as a core requirement. All data is encrypted and you maintain full control over your records.
+
+
+      **Q: Can I edit the AI-generated notes?**
+
+      A: Yes. SomaSync generates draft notes that you can review, edit, and approve before finalizing.
+
+
+      **Q: Does it integrate with my existing practice management software?**
+
+      A: Phase I focuses on copy-to-clipboard functionality. Phase II will include direct integrations with major EHR and practice management systems.
+
+
+      **Q: What if the AI doesn't understand what I say?**
+
+      A: You can always review the transcription in real-time and provide corrections. The system learns from these corrections to improve accuracy.
+
+
+      **Q: Do I need internet connection?**
+
+      A: For the MVP, yes. Future versions will include offline mode with sync when reconnected.
+
+
+      **Q: What languages are supported?**
+
+      A: Phase I supports English. Additional languages will be added based on user demand.
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+
+  - type: GenericSection
+    title:
+      text: Join the Revolution
+      color: text-dark
+      type: TitleBlock
+    subtitle: Apply for Early Access Today
+    text: >
+      SomaSync AI is transforming how manual therapists document, learn, and practice. Be part of the movement to elevate the profession through intelligent technology.
+
+
+      Limited spots available in our pilot program. Applications are reviewed on a rolling basis.
+    media:
+      type: FormBlock
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          hideLabel: true
+          placeholder: Your full name
+          isRequired: true
+          width: full
+        - type: EmailFormControl
+          name: email
+          label: Email
+          hideLabel: true
+          placeholder: Your email address
+          isRequired: true
+          width: full
+        - type: TextFormControl
+          name: license
+          label: License Type
+          hideLabel: true
+          placeholder: Your license type (e.g., LMT, PT, DC)
+          isRequired: false
+          width: full
+        - type: TextareaFormControl
+          name: message
+          label: Message
+          hideLabel: true
+          placeholder: Tell us about your practice and why you're interested in SomaSync AI
+          width: full
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Apply for Early Access
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-6
+            - pb-6
+            - pl-6
+            - pr-6
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+    badge:
+      type: Badge
+      label: Get Started
+      color: text-primary
+    colors: bg-light-fg-dark
+    elementId: contact
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+
 seo:
   metaTitle: SomaSync AI - Clinical Documentation for Manual Therapists
-  metaDescription: SomaSync AI is a hands-free, voice-activated clinical documentation
-    tool designed specifically for manual therapists.
+  metaDescription: >
+    SomaSync AI is a hands-free, voice-activated clinical documentation tool designed specifically for manual therapists. Transform your practice with AI-powered SOAP notes.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
